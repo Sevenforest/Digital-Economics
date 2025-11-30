@@ -35,7 +35,8 @@
 | **Vol.1** | [**The "Spending First" Protocol**](Vol1_Spending_First_Protocol.md) | **[Debug]** 貨幣観の修正。「支出が先、徴税は後」という因果律の証明。自国通貨建て国債におけるデフォルトの不在証明。 |
 | **Vol.2** | [**The "Admin Hijack"**](Vol2_Admin_Hijack_and_False_KPI.md) | **[Security]** バグの原因特定。財務省による「管理者権限の乗っ取り」と、「プライマリーバランス」という偽の勝利条件（KPI）の解析。 |
 | **Vol.3** | [**The Abundance Algorithm**](Vol3_The_Abundance_Algorithm.md) | **[New Feature]** 未来の実装。「供給能力（Hardware）さえあれば、通貨（Data）は枯渇しない」。JGPやBIによるリソース最大化戦略。 |
-| **Log** | [**Theoretical Stress Test**](Theoretical_Stress_Test.md) | **[Firewall]** 理論の強度試験。主流派経済学の権威（AIペルソナ）との対話シミュレーションによる、批判への完全な反証ログ。 |
+| **Log 1** | [**Theoretical Stress Test**](Theoretical_Stress_Test.md) | **[Firewall 1]** 理論武装。主流派経済学の権威（AIペルソナ）との対話シミュレーションによる、学術的批判への完全な反証ログ。 |
+| **Log 2** | [**Theoretical Stress Test Vol.2**](Theoretical_Stress_Test_Vol2.md) | **[Firewall 2]** 実務的検証。現場のビジネスマン（AIペルソナ）が抱く「勤労意欲」や「インフレ懸念」に対する、システム工学的回答。 |
 
 ## 🛠 System Architecture (用語の再定義)
 
