@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status: Stable](https://img.shields.io/badge/Status-Stable-brightgreen.svg)](https://github.com/Sevenforest/Digital-Economics)
 [![Paradigm: Shifted](https://img.shields.io/badge/Paradigm-Shifted-blueviolet.svg)]()
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://digital-economics-9fk2ty49kcvctldpbqzjbf.streamlit.app/)
 
 ## ⚡ Overview (概要)
 
@@ -25,18 +26,38 @@
 > **システム内の過剰な流動性を削除し、熱暴走（インフレ）を防ぐための「ガベージコレクション（Garbage Collection）」である。**
 
 ---
+## 🎮 Interactive Simulator (実証実験)
+
+理論の違いが経済にどう影響するかを体験できるシミュレーターを公開中。
+**「主流派（緊縮）」vs「デジタル経済学（積極財政）」** の結末を、あなたの目で確認してください。
+
+**👉 [Sim-Japan: The Economic Debugger (Launch App)](https://digital-economics-9fk2ty49kcvctldpbqzjbf.streamlit.app/)**
+
+---
 
 ## 📂 Repository Contents
 
 本理論は、以下のモジュール（論文および検証ログ）によって構成される。
 
-| Vol | Title | Description |
-|:---|:---|:---|
-| **Vol.1** | [**The "Spending First" Protocol**](Vol1_Spending_First_Protocol.md) | **[Debug]** 貨幣観の修正。「支出が先、徴税は後」という因果律の証明。自国通貨建て国債におけるデフォルトの不在証明。 |
-| **Vol.2** | [**The "Admin Hijack"**](Vol2_Admin_Hijack_and_False_KPI.md) | **[Security]** バグの原因特定。財務省による「管理者権限の乗っ取り」と、「プライマリーバランス」という偽の勝利条件（KPI）の解析。 |
-| **Vol.3** | [**The Abundance Algorithm**](Vol3_The_Abundance_Algorithm.md) | **[New Feature]** 未来の実装。「供給能力（Hardware）さえあれば、通貨（Data）は枯渇しない」。JGPやBIによるリソース最大化戦略。 |
-| **Log 1** | [**Theoretical Stress Test**](Theoretical_Stress_Test.md) | **[Firewall 1]** 理論武装。主流派経済学の権威（AIペルソナ）との対話シミュレーションによる、学術的批判への完全な反証ログ。 |
-| **Log 2** | [**Theoretical Stress Test Vol.2**](Theoretical_Stress_Test_Vol2.md) | **[Firewall 2]** 実務的検証。現場のビジネスマン（AIペルソナ）が抱く「勤労意欲」や「インフレ懸念」に対する、システム工学的回答。 |
+### 01. Theory Core (仕様定義)
+| File | Description |
+|:---|:---|
+| **[Vol.1 The "Spending First" Protocol](01_Theory_Core/Vol1_Spending_First_Protocol.md)** | **[Debug]** 貨幣観の修正。「支出が先、徴税は後」という因果律の証明。 |
+| **[Appendix: Banking Protocol](01_Theory_Core/Appendix_Banking_Protocol.md)** | **[Tech Ref]** 信用創造のバックエンド仕様と、リフレ派が陥った「流動性の罠」のバグ解析。 |
+| **[Vol.2 The "Admin Hijack"](01_Theory_Core/Vol2_Admin_Hijack_and_False_KPI.md)** | **[Security]** 財務省による「管理者権限の乗っ取り」と、「PB黒字化」という偽KPIの解析。 |
+| **[Vol.3 The Abundance Algorithm](01_Theory_Core/Vol3_The_Abundance_Algorithm.md)** | **[New Feature]** 「供給能力（Hardware）さえあれば、通貨は枯渇しない」。JGPやBIの実装。 |
+
+### 02. Verification Logs (監査記録)
+| File | Description |
+|:---|:---|
+| **[Stress Test Vol.1](02_Verification_Logs/Theoretical_Stress_Test.md)** | **[Audit]** 主流派経済学の権威（AIペルソナ）による「インフレ・金利」批判への反証。 |
+| **[Stress Test Vol.2](02_Verification_Logs/Theoretical_Stress_Test_Vol2.md)** | **[Audit]** 実務家（AIペルソナ）による「労働意欲・BI」への懸念に対する回答。 |
+| **[Stress Test Vol.3](02_Verification_Logs/Theoretical_Stress_Test_Vol3.md)** | **[Audit]** ラスボス（権威）による「信認・民業圧迫」批判への完全論破ログ。 |
+
+### 03. Interactive Lab (実装)
+| File | Description |
+|:---|:---|
+| **[`app_economy.py`](03_Interactive_Lab/app_economy.py)** | **[Code]** 経済シミュレーターのソースコード（Python/Streamlit）。 |
 
 ## 🛠 System Architecture (用語の再定義)
 
