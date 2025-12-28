@@ -46,6 +46,7 @@
 | **[Appendix: Banking Protocol](01_Theory_Core/Appendix_Banking_Protocol.md)** | **[Tech Ref]** 信用創造のバックエンド仕様と、リフレ派が陥った「流動性の罠」のバグ解析。 |
 | **[Vol.2 The "Admin Hijack"](01_Theory_Core/Vol2_Admin_Hijack_and_False_KPI.md)** | **[Security]** 財務省による「管理者権限の乗っ取り」と、「PB黒字化」という偽KPIの解析。 |
 | **[Vol.3 The Abundance Algorithm](01_Theory_Core/Vol3_The_Abundance_Algorithm.md)** | **[New Feature]** 「供給能力（Hardware）さえあれば、通貨は枯渇しない」。JGPやBIの実装。 |
+| **[Appendix: Labor Deception and BI](01_Theory_Core/Appendix_Labor_Deception_and_BI.md)** | **[Debug]** 労働の「精神価値」という欺瞞の解体。生存リソース（BI）とAI代替による社会OSの正常化。 |
 
 ### 02. Verification Logs (監査記録)
 | File | Description |
@@ -72,6 +73,8 @@
 | **インフレ (Inflation)** | **サーマルスロットリング (Thermal Throttling)** | 供給能力の限界による発熱制御 |
 | **財政破綻 (Default)** | **Null Pointer Exception** | 自国通貨建てでは発生し得ないバグ |
 | **消費税 (Consumption Tax)** | **悪性コード (Malicious Code)** | トランザクションごとに罰金を科す処理 |
+| **ベーシックインカム (BI)** | **待機電力 (Base Voltage)** | 全ノードへの生存保証リソース供給（L1層） |
+| **就労保証 (JGP)** | **任意のクエスト (Optional Quest)** | システム維持のためのバックグラウンド・プロセス |
 
 ---
 
