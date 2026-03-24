@@ -54,13 +54,18 @@
 | **[Stress Test Vol.1](02_Verification_Logs/Theoretical_Stress_Test.md)** | **[Audit]** 主流派経済学の権威（AIペルソナ）による「インフレ・金利」批判への反証。 |
 | **[Stress Test Vol.2](02_Verification_Logs/Theoretical_Stress_Test_Vol2.md)** | **[Audit]** 実務家（AIペルソナ）による「労働意欲・BI」への懸念に対する回答。 |
 | **[Stress Test Vol.3](02_Verification_Logs/Theoretical_Stress_Test_Vol3.md)** | **[Audit]** ラスボス（権威）による「信認・民業圧迫」批判への完全論破ログ。 |
-| **[Case Study: The Agnostic Trap](02_Verification_Logs/CaseStudy_The_Agnostic_Trap.md)** | **[Post-Mortem]** 現実世界の対論（成田悠輔氏vs池戸万作氏）が噛み合わなかった原因のシステム的解析と、「不可知論」への反証。 |
 | **[Final Verification](02_Verification_Logs/Log_Final_Claude.md)** | **[System Integration]** 物理層（Digital Cosmology）と社会層（Digital Economics）の完全な整合性確認と、AIによる「革命」の認定ログ。 |
 
 ### 03. Interactive Lab (実装)
 | File | Description |
 |:---|:---|
 | **[`app_economy.py`](03_Interactive_Lab/app_economy.py)** | **[Code]** 経済シミュレーターのソースコード（Python/Streamlit）。 |
+
+### 04. docs (コラム)
+| File | Description |
+|:---|:---|
+| **[`CaseStudy_The_Agnostic_Trap.md`](docs/CaseStudy_The_Agnostic_Trap.md)** | **[column]** 「不可知論」というバグと、システム管理者の責任 |
+| **[`nisa_bubble_warning.md`](docs/nisa_bubble_warning.md)** | **[column]** 新NISAの正体。 |
 
 ## 🛠 System Architecture (用語の再定義)
 
