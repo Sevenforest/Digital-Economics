@@ -65,7 +65,8 @@
 | File | Description |
 |:---|:---|
 | **[`CaseStudy_The_Agnostic_Trap.md`](docs/CaseStudy_The_Agnostic_Trap.md)** | **[column]** 「不可知論」というバグと、システム管理者の責任 |
-| **[`nisa_bubble_warning.md`](docs/nisa_bubble_warning.md)** | **[column]** 新NISAの正体。 |
+| **[`nisa_bubble_warning.md`](docs/nisa_bubble_warning.md)** | **[column]** 現代の「土地神話」：実体経済と乖離した数字の熱狂への警告。|
+| **[`NISA_Structural_Defect_Report_QED.md`](docs/NISA_Structural_Defect_Report_QED.md)** | **[column]** 最終監査報告：スティーブ・キーンの数式が暴く新NISAの構造的欠陥。 |
 
 ## 🛠 System Architecture (用語の再定義)
 
